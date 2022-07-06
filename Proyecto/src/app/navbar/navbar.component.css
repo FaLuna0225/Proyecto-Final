@@ -1,0 +1,12 @@
+#nav{
+    background-color: #EFE6DD;
+    display: flex;
+}
+
+.imgMenu{
+    width: 40px;
+}
+
+.imgSearch{
+    width: 40px;
+}
