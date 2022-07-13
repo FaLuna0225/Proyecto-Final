@@ -1,0 +1,48 @@
+h1{
+    color: #98c1d9;
+    text-align: center;
+}
+
+.gallery-container{
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: repeat(5, 300px);
+    grid-auto-rows: 150px;
+    padding: 20px;
+    grid-gap: 10px;
+}
+
+.gallery__item{
+    position: relative;
+}
+
+.gallery__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;/*Propiedad para que la imagen no de distorcione*/
+
+}
+
+.gallery__title{
+    position: absolute;
+    bottom: 0;
+    color: #293241;
+    background: linear-gradient(#e0fbfc, #98c1d9);
+    width: 100%;
+    margin: 0;
+}
+
+.gallery__item:nth-child(4)
+{
+    grid-column-start: span 2;
+}
+
+.gallery__item:nth-child(5)
+{
+    grid-row-start: span 2;
+}
+
+.gallery__item:nth-child(9)
+{
+    grid-column-start: span 2;
+}

@@ -1,0 +1,13 @@
+#juego{
+    border: solid 3px rgb(234, 0, 0);
+    color: #000000;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+img{
+    width: 100%;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+

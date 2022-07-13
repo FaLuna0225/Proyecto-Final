@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+
 
 @Component({
   selector: 'app-section1',
@@ -6,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./section1.component.css']
 })
 export class Section1Component implements OnInit {
+
+  
+  @Input() imagenJuego:string=''
+  @Input() nombreJuego:string=''
 
   constructor() { }
 

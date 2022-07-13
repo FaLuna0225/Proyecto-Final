@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+@import url('https://fonts.googleapis.com/css2?family=Splash&display=swap');
 
 body{
-    background-color: #02040F;
+    background-color: #293241;
+    font-family: 'Splash', cursive;
 }

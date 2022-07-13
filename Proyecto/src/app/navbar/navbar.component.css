@@ -1,12 +1,78 @@
-#nav{
-    background-color: #EFE6DD;
+.nav{
+    background-color: #E0FBFC;
+    height: 1.5cm;
+    color: #293241;
+
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .imgMenu{
-    width: 40px;
+    width: 30px;
+    height: 30px;
 }
 
 .imgSearch{
-    width: 40px;
+    width: 20px;
+    height: 20px;
 }
+
+.div{
+    display: flex;
+    flex-direction: row;
+}
+
+.input{
+    background-color: #E0FBFC;
+    border: #293241 solid;
+    border-radius: 50px;
+    width: 3cm;
+    text-align: end;
+}
+
+.games {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.games a{
+    margin: 5px;
+    text-decoration: none;
+    color: #293241;
+}
+
+.games a:hover{
+    margin: 5px;
+    text-decoration: underline;
+    color: purple;
+}
+
+
+.games button{
+    margin-left: 20ch;
+    background-color: #E0FBFC;
+    border: #293241 solid;
+    border-radius: 50px;
+    width: 3cm;
+    color: #293241;
+
+}
+
+.games button:hover {
+    
+    background-color: #667272;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
