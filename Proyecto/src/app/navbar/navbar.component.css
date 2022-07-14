@@ -1,7 +1,8 @@
 .nav{
     background-color: #E0FBFC;
-    height: 1.5cm;
+    height: 2cm;
     color: #293241;
+    font-size: 22px;
 
     display: flex;
     justify-content: space-around;
@@ -17,6 +18,7 @@ li{
     text-decoration: none;
     padding: 10px 15px;
     display: block;
+    font-weight: bolder;
     
 }
 
@@ -45,8 +47,7 @@ li{
 }
 
 .imgSearch{
-    width: 20px;
-    height: 20px;
+    width: 1cm;
 }
 
 .div{
@@ -55,10 +56,11 @@ li{
 }
 
 .input{
-    background-color: #E0FBFC;
+    background-color: #f1f5f5;
     border: #293241 solid;
     border-radius: 50px;
     width: 3cm;
+    height: 1cm;
     text-align: end;
 }
 

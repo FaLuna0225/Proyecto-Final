@@ -1,17 +1,35 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
 #juego{
     color: #000000;
-    background-color: aliceblue;
+    background-color: #e0fbfc;
     border-radius: 10px;
-    padding: 15px;
+    font-size: x-small;
+    box-shadow: 5px 5px 5px #000000;
+}
+
+#juego:hover{
+    transform: translateY(-30px);
+    box-shadow: 5px 5px 5px #c2bfbf;
 }
 
 .imgGame{
     width: 100%;
-    background-color: aliceblue;
+    height: 180px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .icono{
     width: 25px;
     margin-left:15px;
+}
+
+.nameGame{
+    padding: 20px;
 }
 

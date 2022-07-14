@@ -10,6 +10,7 @@ export class Section1Component implements OnInit {
 
   
   @Input() imagenJuego:string=''
+  @Input() imagenIcono:string=''
   @Input() nombreJuego:string=''
 
   constructor() { }

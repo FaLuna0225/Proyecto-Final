@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { ServicioJuegosService } from '../servicio-juegos.service';
 @Component({
   selector: 'app-componente-inicio',
   templateUrl: './componente-inicio.component.html',
@@ -7,7 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ComponenteInicioComponent implements OnInit {
 
-  constructor() { }
+  infoRecibida:any=""
+
+  constructor(private servicio:ServicioJuegosService) {
+    servicio.getInfoJuegos().subscribe((data)=>{
+      this.infoRecibida=data
+    })
+   }
 
   ngOnInit(): void {
   }

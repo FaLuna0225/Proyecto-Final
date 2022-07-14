@@ -1,8 +1,4 @@
 
-
 <div class="grid">
-   <div class="input"><app-section1 [nombreJuego]="'XXXXXXXX'" [imagenJuego]="'http://cdn3.upsocl.com/wp-content/uploads/2022/01/disney-eradelhielo-scrat-sqrat-derechos-creador-demanda-ganar0000.jpg'"></app-section1></div>
-   <div class="input"><app-section1 [nombreJuego]="'XXXXXXXX'" [imagenJuego]="'http://cdn3.upsocl.com/wp-content/uploads/2022/01/disney-eradelhielo-scrat-sqrat-derechos-creador-demanda-ganar0000.jpg'"></app-section1></div>
-   <div class="input"><app-section1 [nombreJuego]="'XXXXXXXX'" [imagenJuego]="'http://cdn3.upsocl.com/wp-content/uploads/2022/01/disney-eradelhielo-scrat-sqrat-derechos-creador-demanda-ganar0000.jpg'"></app-section1></div>
-   <div class="input"><app-section1 [nombreJuego]="'XXXXXXXX'" [imagenJuego]="'http://cdn3.upsocl.com/wp-content/uploads/2022/01/disney-eradelhielo-scrat-sqrat-derechos-creador-demanda-ganar0000.jpg'"></app-section1></div>
+   <app-section1 *ngFor="let juego of infoRecibida.results" [nombreJuego]="juego.name" [imagenJuego]="juego.background_image" [imagenIcono]="juego.platforms"></app-section1>
 </div>

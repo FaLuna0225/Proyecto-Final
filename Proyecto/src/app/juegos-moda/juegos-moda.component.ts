@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { ServicioJuegosService } from '../servicio-juegos.service';
 
 @Component({
   selector: 'app-juegos-moda',
@@ -7,9 +8,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class JuegosModaComponent implements OnInit {
 
-  constructor() { }
+  infoRecibida:any=""
+  @Input() imagenJuego:string=''
+  @Input() nombreJuego:string=''
+
+  constructor(private servicio:ServicioJuegosService) {
+    servicio.getInfoJuegos().subscribe((data)=>{
+      this.infoRecibida=data
+    })
+   }
 
   ngOnInit(): void {
+    
   }
 
 }
