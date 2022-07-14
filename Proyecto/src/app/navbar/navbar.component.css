@@ -8,6 +8,37 @@
     align-items: center;
 }
 
+li{
+    list-style: none;
+}
+
+.nav li {
+    background-color: #E0FBFC;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    
+}
+
+.nav li ul li:hover{
+    text-decoration: underline;
+    color: purple;
+}
+
+.nav>li{
+    float: left;
+}
+
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.nav li:hover > ul{
+    display: block;
+}
+
 .imgMenu{
     width: 30px;
     height: 30px;
@@ -48,31 +79,4 @@
     text-decoration: underline;
     color: purple;
 }
-
-
-.games button{
-    margin-left: 20ch;
-    background-color: #E0FBFC;
-    border: #293241 solid;
-    border-radius: 50px;
-    width: 3cm;
-    color: #293241;
-
-}
-
-.games button:hover {
-    
-    background-color: #667272;
-    
-}
-
-
-
-
-
-
-
-
-
-
 

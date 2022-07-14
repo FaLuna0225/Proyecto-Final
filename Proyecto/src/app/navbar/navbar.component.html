@@ -3,10 +3,25 @@
     <h2>NgVGDB</h2>
 
         <div class="games">
-            <a [routerLink]="['inicio']">Inicio</a>
-            <a [routerLink]="['juegos']">Juegos Moda</a>
-            <a [routerLink]="['registrarse']">Registrarse</a>
-            <button>Comprar</button>
+            <ul class="nav">
+                <li><a [routerLink]="['inicio']">Inicio</a></li>
+                <li><a [routerLink]="['juegos']">Juegos Moda</a></li>
+                <li><a [routerLink]="['registrarse']">Registrarse</a></li>
+                <li><a href="">Tipos</a>
+                    <ul>
+                        <li>Name</li>
+                        <li>Released</li>
+                        <li>Added</li>
+                        <li>Created</li>
+                        <li>Updated</li>
+                        <li>Rating</li>
+                        <li>Metacritic</li>
+                    </ul>
+                </li>
+            </ul>
+            
+            
+            
             
         </div>
 
