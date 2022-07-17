@@ -1,0 +1,14 @@
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px  30px;
+    width: 50%;
+    color: #3d5a80;
+    background: linear-gradient(#ee6c4d, #98c1d9);
+    margin: 50px auto;
+    padding: 20px;
+
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #1d1c1ca8;
+}

@@ -8,13 +8,13 @@ import { ServicioJuegosService } from '../servicio-juegos.service';
 })
 export class JuegosModaComponent implements OnInit {
 
-  infoRecibida:any=""
+  informacionRecibida:any=""
   @Input() imagenJuego:string=''
   @Input() nombreJuego:string=''
 
   constructor(private servicio:ServicioJuegosService) {
     servicio.getInfoJuegos().subscribe((data)=>{
-      this.infoRecibida=data
+      this.informacionRecibida=data
     })
    }
 

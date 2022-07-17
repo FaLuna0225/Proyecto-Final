@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-section1',
@@ -10,12 +10,16 @@ export class Section1Component implements OnInit {
 
   
   @Input() imagenJuego:string=''
-  @Input() imagenIcono:string=''
   @Input() nombreJuego:string=''
+  @Input() idJuego:string=''
 
-  constructor() { }
+  constructor(private router:Router) { }
 
   ngOnInit(): void {
+  }
+
+  irADatos(){
+    this.router.navigate(["details",this.idJuego])
   }
 
 }

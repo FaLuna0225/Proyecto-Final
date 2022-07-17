@@ -1,12 +1,12 @@
 
 .form-register{
     width: 400px;
-    background-color: #ee6c4d;
+    background: linear-gradient(#ee6c4d, #98c1d9);
     padding: 30px;
     margin: auto;
     margin-top: 100px;
     border-radius: 4px;
-    color: #98c1d9;
+    color: #293241;
     box-shadow: 7px 13px 37px #000000b9;
 }
 
@@ -18,6 +18,7 @@
 .controls{
     width: 100%;
     background-color: #ee6c4d;
+    color: #293241;
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 16px;
@@ -33,7 +34,7 @@
 }
 
 .form-register a{
-    color: #98c1d9;
+    color: #3d5a80;
     text-decoration: none;
 }
 

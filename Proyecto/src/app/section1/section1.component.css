@@ -13,8 +13,8 @@
 }
 
 #juego:hover{
-    transform: translateY(-30px);
-    box-shadow: 5px 5px 5px #c2bfbf;
+    transform: translateY(-5px);
+    box-shadow: 8px 8px 8px #c2bfbf;
 }
 
 .imgGame{
@@ -33,3 +33,10 @@
     padding: 20px;
 }
 
+button{
+    border-radius: 10px;
+
+    height: 1cm;
+    width: 2cm;
+    
+}
