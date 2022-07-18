@@ -26,7 +26,11 @@
 
 .icono{
     width: 25px;
-    margin-left:15px;
+    margin: 3px;
+}
+
+.windows{
+    margin-left: 20px;
 }
 
 .nameGame{
@@ -40,3 +44,5 @@ button{
     width: 2cm;
     
 }
+
+
